@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="description" content="Link Shortener to TinyURL">
+  <meta name="keywords" content="HTML, JavaScript, Link Shortener, TinyURL">
+  <meta name="author" content="Jason Yau">
+  
+<head>
+  <title>LinkShortener</title>
+</head>
+
+
+
+  
+  <body>
+    <link rel= "stylesheet" href="style.css">
+    
+    <h2 id="Title">
+      Link Shortener:
+    </h2>
+    
+    <h5 id="Description">
+      Convert links to a TinyURL
+    </h5>
+
+    <div id="LinkToConvertHeader">
+      Link to Convert:
+    </div>
+
+    <div id="LinkToConvertHolder">
+      <input id="LinkToConvert" placeholder="Link to Convert" type="text">
+    </div>
+
+    <div id="CustomizeURLHeader">
+      Customize URL:
+    </div>
+
+    <div id="CustomizeURLHolder">
+      <input id="CustomizeURL" placeholder="Random" type="text">
+    </div>
+
+    <div id="TinyURLHeader">
+      Shortened Link:
+    </div>
+
+    <div id="TinyURLHolder">
+      <Label id="TinyURL">
+        <a id="TinyURLLink" target="_blank">
+          Link
+        </a>
+      </Label>
+    </div>
+
+    <div id="ButtonsHolder">
+      <button id="ConvertButton">
+        Convert
+      </button>
+      <button id="CopyLink">
+        Copy Link
+      </button>
+    </div>
+
+    
+  <div style= "position: absolute; bottom: 15px; right: 15px; font-size: 18px">
+    <a href = "https://github.com/jasonpyau/">
+      Github @jasonpyau
+    </a>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"> </script>
+    
+  </body>
+
+</html>
